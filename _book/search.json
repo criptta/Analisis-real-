@@ -1,0 +1,212 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Análisis Real 1",
+    "section": "",
+    "text": "Bienvenidos\nEste es mi cuaderno digital de Análisis Real 1. Aquí recopilo las notas, teoremas y ejercicios fundamentales sobre la estructura de los números reales \\(\\mathbb{R}\\).\n\n“El análisis matemático es el lenguaje de la continuidad.”",
+    "crumbs": [
+      "Bienvenidos"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Introducción al Análisis Real",
+    "section": "",
+    "text": "1.1 El Axioma del Supremo\nEl estudio del análisis comienza con la comprensión de los números reales como un cuerpo ordenado completo.\nTodo conjunto no vacío de números reales que esté acotado superiormente tiene un supremo en \\(\\mathbb{R}\\).\n\\[S \\subseteq \\mathbb{R}, S \\neq \\emptyset, S \\text{ acotado sup} \\implies \\exists \\sup(S) \\in \\mathbb{R}\\]",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introducción al Análisis Real</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "2  Números Reales",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Números Reales</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. (USA) 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "References"
+    ]
+  },
+  {
+    "objectID": "intro.html#propiedad-arquimediana",
+    "href": "intro.html#propiedad-arquimediana",
+    "title": "1  Introducción al Análisis Real",
+    "section": "1.2 Propiedad Arquimediana",
+    "text": "1.2 Propiedad Arquimediana\nPara cada número real \\(x &gt; 0\\) y cada \\(y \\in \\mathbb{R}\\), existe un número natural \\(n\\) tal que:\n\\[nx &gt; y\\]",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introducción al Análisis Real</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#el-axioma-del-supremo-1",
+    "href": "intro.html#el-axioma-del-supremo-1",
+    "title": "1  Introducción al Análisis Real",
+    "section": "2.1 El Axioma del Supremo",
+    "text": "2.1 El Axioma del Supremo\nUn conjunto \\(S \\subset \\mathbb{R}\\) no vacío y acotado superiormente tiene un supremo en \\(\\mathbb{R}\\).\n\\[s = \\sup(S) \\iff \\forall \\epsilon &gt; 0, \\exists x \\in S \\text{ tal que } s - \\epsilon &lt; x\\]",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introducción al Análisis Real</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#propiedad-arquimediana-1",
+    "href": "intro.html#propiedad-arquimediana-1",
+    "title": "1  Introducción al Análisis Real",
+    "section": "2.2 Propiedad Arquimediana",
+    "text": "2.2 Propiedad Arquimediana\nPara cada número real \\(x &gt; 0\\) y cada \\(y \\in \\mathbb{R}\\), existe un número natural \\(n\\) tal que:\n\\[nx &gt; y\\]",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introducción al Análisis Real</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#el-axioma-del-supremo-2",
+    "href": "intro.html#el-axioma-del-supremo-2",
+    "title": "1  Introducción al Análisis Real",
+    "section": "3.1 El Axioma del Supremo",
+    "text": "3.1 El Axioma del Supremo\nUn conjunto \\(S \\subset \\mathbb{R}\\) no vacío y acotado superiormente tiene un supremo en \\(\\mathbb{R}\\).\n\\[s = \\sup(S) \\iff \\forall \\epsilon &gt; 0, \\exists x \\in S \\text{ tal que } s - \\epsilon &lt; x\\]",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introducción al Análisis Real</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#propiedad-arquimediana-2",
+    "href": "intro.html#propiedad-arquimediana-2",
+    "title": "1  Introducción al Análisis Real",
+    "section": "3.2 Propiedad Arquimediana",
+    "text": "3.2 Propiedad Arquimediana\nPara cada número real \\(x &gt; 0\\) y cada \\(y \\in \\mathbb{R}\\), existe un número natural \\(n\\) tal que:\n\\[nx &gt; y\\]",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introducción al Análisis Real</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#el-axioma-del-supremo",
+    "href": "intro.html#el-axioma-del-supremo",
+    "title": "1  Introducción al Análisis Real",
+    "section": "",
+    "text": "TipTeorema: Unicidad del Límite\n\n\n\nSi una sucesión \\((a_n)\\) converge, entonces su límite es único.\nEs decir, si \\(\\lim a_n = L_1\\) y \\(\\lim a_n = L_2\\), entonces \\(L_1 = L_2\\).\n\n\n\n\n\n\n\n\nTipTeorema de la Densidad\n\n\n\nEntre dos números reales cualesquiera existe un número racional.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introducción al Análisis Real</span>"
+    ]
+  },
+  {
+    "objectID": "sucesiones.html",
+    "href": "sucesiones.html",
+    "title": "3  Sucesiones y Series Numéricas",
+    "section": "",
+    "text": "Este capítulo marca la transición al análisis dinámico. Estudiaremos cómo los elementos de un conjunto pueden aproximarse arbitrariamente a un punto, definiendo así el concepto de límite en espacios métricos.\n\nSucesiones Convergentes\n\n\n\n\n\n\nTip\n\n\n\nDefinición 3.1: Convergencia\nSe dice que una sucesión \\(\\{p_n\\}\\) en un espacio métrico \\(X\\) converge si hay un punto \\(p \\in X\\) con las siguientes propiedades:\nPara cada \\(\\epsilon &gt; 0\\), existe un número entero \\(N\\) tal que \\(n \\geq N\\) implica que:\n\\[d(p_n, p) &lt; \\epsilon\\]\nDonde \\(d\\) representa la distancia en \\(X\\).\n\n\nEn este caso, decimos también que \\(\\{p_n\\}\\) converge hacia \\(p\\), o que \\(p\\) es el límite de \\(\\{p_n\\}\\), y escribimos:\n\\[p_n \\to p, \\quad \\text{o} \\quad \\lim_{n \\to \\infty} p_n = p\\]\nSi \\(\\{p_n\\}\\) no converge, se dice que diverge.\n\n\n\n\n\n\nImportant\n\n\n\nObservación Crucial de Rudin\nEs conveniente resaltar que la definición de “sucesión convergente” depende no solamente de \\(\\{p_n\\}\\), sino también del espacio \\(X\\).\n\n\n\n\n\n\n\n\nNote\n\n\n\nEjemplo Clásico: La sucesión \\(\\{1/n\\}\\)\nEsta sucesión converge en \\(\\mathbb{R}^1\\) (hacia el punto \\(0\\)).\nSin embargo, no converge en el espacio de los números reales positivos \\((0, \\infty)\\), ya que el punto \\(0\\) no pertenece a dicho espacio.\n\n\nVisualización del Concepto\nPara un estudiante, la definición formal puede ser abstracta. La clave está en entender que \\(d(p_n, p) &lt; \\epsilon\\) significa que los puntos entran en una “vecindad” de la cual ya no pueden escapar.\n\n\n\n\n\n\nCaution\n\n\n\nNota sobre N y \\(\\epsilon\\)\nNota que el valor de \\(N\\) depende de \\(\\epsilon\\). Si el margen de error \\(\\epsilon\\) se hace más pequeño, generalmente necesitaremos un \\(N\\) más grande (avanzar más en la sucesión) para cumplir la condición.\n\n\nPropiedades de las Sucesiones Convergentes\nEl siguiente teorema resume propiedades fundamentales que facilitan el trabajo con límites en cualquier espacio métrico \\(X\\).\n\n\n\n\n\n\nTip\n\n\n\nTeorema 3.2\nSea \\(\\{p_n\\}\\) una sucesión en un espacio métrico \\(X\\).\n\n\\(\\{p_n\\}\\) converge hacia \\(p \\in X\\) si, y solo si, toda vecindad de \\(p\\) contiene todos los términos de \\(\\{p_n\\}\\), salvo un número finito de ellos.\nUnicidad del límite: Si \\(\\{p_n\\}\\) converge hacia \\(p\\) y \\(p'\\), entonces \\(p = p'\\).\nSi \\(\\{p_n\\}\\) converge, es acotada.\nSi \\(p\\) es un punto de límite de \\(E \\subset X\\), existe una sucesión en \\(E\\) tal que \\(p = \\lim p_n\\).\n\n\n\nDemostración de la Unicidad (b)\nSea un \\(\\epsilon &gt; 0\\) dado. Existen \\(N, N'\\) tales que:\n\\(n \\geq N \\implies d(p_n, p) &lt; \\frac{\\epsilon}{2}\\)\n\\(n \\geq N' \\implies d(p_n, p') &lt; \\frac{\\epsilon}{2}\\)\nSi elegimos \\(n \\geq \\max(N, N')\\), por la desigualdad triangular:\n\\[d(p, p') \\leq d(p, p_n) + d(p_n, p') &lt; \\frac{\\epsilon}{2} + \\frac{\\epsilon}{2} = \\epsilon\\]\nComo \\(\\epsilon\\) es arbitrario, \\(d(p, p') = 0\\), por lo tanto \\(p = p'\\).\n\nEl truco del \\(\\epsilon/2\\)\nEste es el “pan de cada día” en el análisis. Si quieres que la suma final sea \\(\\epsilon\\), divides tus errores previos en fracciones más pequeñas.\n\n\n\n\n\n\n\nNote\n\n\n\nAnalogía: La Correa Invisible\nImagina que un grupo de amigos (\\(p_n\\)) camina por un parque. La convergencia significa que tarde o temprano, casi todos estarán pegaditos a la estatua (\\(p\\)). Aunque algunos amigos “rebeldes” (\\(p_1, \\dots, p_N\\)) se alejen al principio, el grupo entero siempre podrá mantenerse dentro de una cerca (bola) de tamaño definido.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>sucesiones.html</span>"
+    ]
+  },
+  {
+    "objectID": "sucesiones.html#sucesiones-convergentes",
+    "href": "sucesiones.html#sucesiones-convergentes",
+    "title": "3  Sucesiones y Series Numéricas",
+    "section": "",
+    "text": "TipDefinición 3.1: Convergencia\n\n\n\nSe dice que una sucesión \\(\\{p_n\\}\\) en un espacio métrico \\(X\\) converge si hay un punto \\(p \\in X\\) con las siguientes propiedades:\nPara cada \\(\\epsilon &gt; 0\\), existe un número entero \\(N\\) tal que \\(n \\geq N\\) implica que: \\[d(p_n, p) &lt; \\epsilon\\]\nDonde \\(d\\) representa la distancia en \\(X\\).\n\n\n\n\n\n\n\n\n\n\nImportantObservación Crucial de Rudin\n\n\n\nEs conveniente resaltar que la definición de “sucesión convergente” depende no solamente de \\(\\{p_n\\}\\), sino también del espacio \\(X\\).\n\n\n\n\n\n\n\n\nNoteEjemplo Clásico: La sucesión \\(\\{1/n\\}\\)\n\n\n\n\nEsta sucesión converge en \\(\\mathbb{R}^1\\) (hacia el punto \\(0\\)).\nSin embargo, no converge en el espacio de los números reales positivos \\((0, \\infty)\\), ya que el punto \\(0\\) no pertenece a dicho espacio.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Sucesiones y Series Numéricas</span>"
+    ]
+  },
+  {
+    "objectID": "sucesiones.html#visualización-del-concepto",
+    "href": "sucesiones.html#visualización-del-concepto",
+    "title": "3  Sucesiones y Series Numéricas",
+    "section": "3.2 Visualización del Concepto",
+    "text": "3.2 Visualización del Concepto\nPara un estudiante, la definición formal puede ser abstracta. La clave está en entender que \\(d(p_n, p) &lt; \\epsilon\\) significa que los puntos entran en una “vecindad” de la cual ya no pueden escapar.\n\n\n\n\n\n\nCautionNota sobre N y \\(\\epsilon\\)\n\n\n\nNota que el valor de \\(N\\) depende de \\(\\epsilon\\). Si el margen de error \\(\\epsilon\\) se hace más pequeño, generalmente necesitaremos un \\(N\\) más grande (avanzar más en la sucesión) para cumplir la condición.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Sucesiones y Series Numéricas</span>"
+    ]
+  },
+  {
+    "objectID": "sucesiones.html#propiedades-de-las-sucesiones-convergentes",
+    "href": "sucesiones.html#propiedades-de-las-sucesiones-convergentes",
+    "title": "3  Sucesiones y Series Numéricas",
+    "section": "3.3 Propiedades de las Sucesiones Convergentes",
+    "text": "3.3 Propiedades de las Sucesiones Convergentes\nEl siguiente teorema resume propiedades fundamentales que facilitan el trabajo con límites en cualquier espacio métrico \\(X\\).\n\n\n\n\n\n\nTipTeorema 3.2\n\n\n\nSea \\(\\{p_n\\}\\) una sucesión en un espacio métrico \\(X\\).\n\n\\(\\{p_n\\}\\) converge hacia \\(p \\in X\\) si, y solo si, toda vecindad de \\(p\\) contiene todos los términos de \\(\\{p_n\\}\\), salvo un número finito de ellos.\nUnicidad del límite: Si \\(\\{p_n\\}\\) converge hacia \\(p\\) y \\(p'\\), entonces \\(p = p'\\).\nSi \\(\\{p_n\\}\\) converge, es acotada.\nSi \\(p\\) es un punto de límite de \\(E \\subset X\\), existe una sucesión en \\(E\\) tal que \\(p = \\lim p_n\\).\n\n\n\n\n3.3.1 Demostración de la Unicidad (b)\nSea un \\(\\epsilon &gt; 0\\) dado. Existen \\(N, N'\\) tales que: * \\(n \\geq N \\implies d(p_n, p) &lt; \\frac{\\epsilon}{2}\\) * \\(n \\geq N' \\implies d(p_n, p') &lt; \\frac{\\epsilon}{2}\\)\nSi elegimos \\(n \\geq \\max(N, N')\\), por la desigualdad triangular: \\[d(p, p') \\leq d(p, p_n) + d(p_n, p') &lt; \\frac{\\epsilon}{2} + \\frac{\\epsilon}{2} = \\epsilon\\]\nComo \\(\\epsilon\\) es arbitrario, \\(d(p, p') = 0\\), por lo tanto \\(p = p'\\).",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Sucesiones y Series Numéricas</span>"
+    ]
+  },
+  {
+    "objectID": "sucesiones.html#el-truco-del-epsilon2",
+    "href": "sucesiones.html#el-truco-del-epsilon2",
+    "title": "3  Sucesiones y Series Numéricas",
+    "section": "3.4 El truco del \\(\\epsilon/2\\)",
+    "text": "3.4 El truco del \\(\\epsilon/2\\)\nEste es el “pan de cada día” en el análisis. Si quieres que la suma final sea \\(\\epsilon\\), divides tus errores previos en fracciones más pequeñas.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Sucesiones y Series Numéricas</span>"
+    ]
+  },
+  {
+    "objectID": "sucesiones.html#laboratorio-de-visualización-matemática",
+    "href": "sucesiones.html#laboratorio-de-visualización-matemática",
+    "title": "3  Sucesiones y Series Numéricas",
+    "section": "3.5 Laboratorio de Visualización Matemática",
+    "text": "3.5 Laboratorio de Visualización Matemática\n\n3.5.1 1. Visualización de la Convergencia (\\(s_n = 1/n\\))\n\n\n3.5.2 2. Comparación: Acotamiento vs Divergencia",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Sucesiones y Series Numéricas</span>"
+    ]
+  },
+  {
+    "objectID": "series.html",
+    "href": "series.html",
+    "title": "3  Capítulo: Series numéricas",
+    "section": "",
+    "text": "3.1 Introducción\nEn este capítulo, estudiaremos la suma de los términos de una sucesión infinita. A diferencia de las sumas finitas, la suma de infinitos términos requiere el concepto de límite para cobrar sentido.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Capítulo: Series numéricas</span>"
+    ]
+  },
+  {
+    "objectID": "series.html#introducción",
+    "href": "series.html#introducción",
+    "title": "3  Capítulo: Series Numéricas",
+    "section": "",
+    "text": "3.1.1 Definición Formal\nSea \\{a_n\\}_{n=1}^{\\infty} una sucesión de números reales. Definimos la serie infinita \\sum_{n=1}^{\\infty} a_n como el límite de la sucesión de sumas parciales \\{S_k\\}, donde:\nS_k = \\sum_{n=1}^{k} a_n = a_1 + a_2 + \\dots + a_k\n\nDefinición: Decimos que la serie converge si el límite \\lim_{k \\to \\infty} S_k existe y es un número real S. En tal caso, escribimos \\sum_{n=1}^{\\infty} a_n = S. Si el límite no existe, decimos que la serie diverge.\n\n#| label: fig-armonica #| fig-cap: “Las sumas parciales de la serie armónica crecen sin cota, aunque lentamente.” library(ggplot2)\nn_vals &lt;- 1:100 df_plot &lt;- data.frame( n = n_vals, S_n = cumsum(1/n_vals) )\nggplot(df_plot, aes(x = n, y = S_n)) + geom_line(color = “blue”) + geom_point() + labs(title = “Sucesión de Sumas Parciales: Serie Armónica”, x = “n”, y = “S_n”) + theme_minimal()",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Capítulo: Series Numéricas</span>"
+    ]
+  },
+  {
+    "objectID": "series.html#series-notables-la-serie-geométrica",
+    "href": "series.html#series-notables-la-serie-geométrica",
+    "title": "3  Capítulo: Series numéricas",
+    "section": "3.2 Series notables: La serie geométrica",
+    "text": "3.2 Series notables: La serie geométrica\nUna de las series más importantes en el análisis es la serie geométrica, donde cada término se obtiene multiplicando el anterior por una razón constante r.\n\\sum_{n=0}^{\\infty} ar^n = a + ar + ar^2 + ar^3 + \\dots\n\nTeorema: La serie geométrica converge si y solo si |r| &lt; 1. En tal caso, su suma es: S = \\frac{a}{1-r}\n\n\n3.2.1 Visualización\n\n\n\n\n\n\n\n\nFigure 3.1",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Capítulo: Series numéricas</span>"
+    ]
+  },
+  {
+    "objectID": "series.html#el-criterio-de-la-razón-dalembert",
+    "href": "series.html#el-criterio-de-la-razón-dalembert",
+    "title": "3  Capítulo: Series numéricas",
+    "section": "3.3 El Criterio de la razón (D’Alembert)",
+    "text": "3.3 El Criterio de la razón (D’Alembert)\nEste criterio es uno de los más potentes en el Análisis Real, especialmente cuando trabajamos con sucesiones que involucran factoriales o potencias n-ésimas, ya que el cociente permite simplificaciones inmediatas.\n\n3.3.1 Definición teórica\nSea \\sum a_n una serie de términos positivos. Supongamos que existe el límite: L = \\lim_{n \\to \\infty} \\left| \\frac{a_{n+1}}{a_n} \\right|\nEl criterio establece que: 1. Si L &lt; 1, la serie converge absolutamente. 2. Si L &gt; 1 (o L = \\infty), la serie diverge. 3. Si L = 1, el criterio no es concluyente.\n\n\n3.3.2 Comparación visual: rapidez de convergencia\nPara entender el impacto de L, comparamos la serie geométrica (r=0.5, L=0.5) con la serie que define al número e, \\sum \\frac{1}{n!}, donde el límite de la razón es L=0. Notarás cómo la serie exponencial “aplasta” a la geométrica conforme n crece.\n\n\n3.3.3 Ejemplo visual del criterio de la razón\nPara ilustrar qué tan rápido decrecen los términos cuando el límite L &lt; 1, comparamos la serie geométrica (r=0.5) con la serie exponencial (1/n!).\n\n\n\n\n\n\n\n\nFigure 3.2",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Capítulo: Series numéricas</span>"
+    ]
+  },
+  {
+    "objectID": "series.html#el-criterio-de-la-razón-dalembert-1",
+    "href": "series.html#el-criterio-de-la-razón-dalembert-1",
+    "title": "3  Capítulo: Series Numéricas",
+    "section": "3.4 3.3 El Criterio de la Razón (D’Alembert)",
+    "text": "3.4 3.3 El Criterio de la Razón (D’Alembert)\nEste criterio es fundamental cuando trabajamos con sucesiones que involucran factoriales o potencias n-ésimas, ya que el cociente permite simplificaciones inmediatas de los términos generales.\n\n3.4.1 Definición Teórica\nSea \\sum a_n una serie de términos positivos. Supongamos que existe el límite: L = \\lim_{n \\to \\infty} \\left| \\frac{a_{n+1}}{a_n} \\right|\nEl criterio establece que: 1. Si L &lt; 1, la serie converge absolutamente. 2. Si L &gt; 1 (o L = \\infty), la serie diverge. 3. Si L = 1, el criterio no es concluyente.\n\n\n3.4.2 Comparación Visual: Rapidez de Convergencia\nA continuación, observamos el comportamiento del término general a_n para dos series convergentes. Aunque ambas tienden a cero, la serie exponencial (L=0) decrece con una velocidad significativamente mayor que la geométrica (L=0.5).\n\n\n\n\n\n\n\n\nFigure 3.2",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Capítulo: Series Numéricas</span>"
+    ]
+  }
+]

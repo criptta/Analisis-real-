@@ -1,0 +1,17 @@
+{
+  "hash": "530e1f2d4b877cc74c08a009246bb4c7",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Capítulo: Series numéricas\"\nsubtitle: \"Análisis Real I\"\nformat:\n  html:\n    code-fold: true\n    html-math-method: katex\n    number-sections: true\neditor_options: \n  chunk_output_type: inline\n---\n\n## Introducción\n\nEn este capítulo, estudiaremos la suma de los términos de una sucesión infinita. A diferencia de las sumas finitas, la suma de infinitos términos requiere el concepto de **límite** para cobrar sentido.\n\n## Series notables: La serie geométrica\n\nUna de las series más importantes en el análisis es la **serie geométrica**, donde cada término se obtiene multiplicando el anterior por una razón constante $r$.\n\n$$\\sum_{n=0}^{\\infty} ar^n = a + ar + ar^2 + ar^3 + \\dots$$\n\n> **Teorema:** La serie geométrica converge si y solo si $|r| < 1$. En tal caso, su suma es: $$S = \\frac{a}{1-r}$$\n\n### Visualización\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](series_files/figure-html/fig-malla-densa-1.png){#fig-malla-densa width=672}\n:::\n:::\n\n\n## El Criterio de la razón (D'Alembert)\n\nEste criterio es uno de los más potentes en el Análisis Real, especialmente cuando trabajamos con sucesiones que involucran factoriales o potencias $n$-ésimas, ya que el cociente permite simplificaciones inmediatas.\n\n### Definición teórica\n\nSea $\\sum a_n$ una serie de términos positivos. Supongamos que existe el límite: $$L = \\lim_{n \\to \\infty} \\left| \\frac{a_{n+1}}{a_n} \\right|$$\n\nEl criterio establece que: 1. Si $L < 1$, la serie converge absolutamente. 2. Si $L > 1$ (o $L = \\infty$), la serie diverge. 3. Si $L = 1$, el criterio no es concluyente.\n\n### Comparación visual: rapidez de convergencia\n\nPara entender el impacto de $L$, comparamos la serie geométrica ($r=0.5, L=0.5$) con la serie que define al número $e$, $\\sum \\frac{1}{n!}$, donde el límite de la razón es $L=0$. Notarás cómo la serie exponencial \"aplasta\" a la geométrica conforme $n$ crece.\n\n### Ejemplo visual del criterio de la razón\n\nPara ilustrar qué tan rápido decrecen los términos cuando el límite $L < 1$, comparamos la serie geométrica ($r=0.5$) con la serie exponencial ($1/n!$).\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](series_files/figure-html/fig-criterio-razon-final-1.png){#fig-criterio-razon-final width=864}\n:::\n:::\n\n",
+    "supporting": [
+      "series_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

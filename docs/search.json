@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Análisis Real 1",
+    "section": "",
+    "text": "Bienvenidos\nEste es mi cuaderno digital de Análisis Real 1. Aquí recopilo las notas, teoremas y ejercicios fundamentales sobre la estructura de los números reales \\(\\mathbb{R}\\).\n\n“El análisis matemático es el lenguaje de la continuidad.”",
+    "crumbs": [
+      "Bienvenidos"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Introducción al Análisis Real",
+    "section": "",
+    "text": "1.1 El Axioma del Supremo\nEl estudio del análisis comienza con la comprensión de los números reales como un cuerpo ordenado completo.\nTodo conjunto no vacío de números reales que esté acotado superiormente tiene un supremo en \\(\\mathbb{R}\\).\n\\[S \\subseteq \\mathbb{R}, S \\neq \\emptyset, S \\text{ acotado sup} \\implies \\exists \\sup(S) \\in \\mathbb{R}\\]",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introducción al Análisis Real</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#el-axioma-del-supremo",
+    "href": "intro.html#el-axioma-del-supremo",
+    "title": "1  Introducción al Análisis Real",
+    "section": "",
+    "text": "TipTeorema: Unicidad del Límite\n\n\n\nSi una sucesión \\((a_n)\\) converge, entonces su límite es único.\nEs decir, si \\(\\lim a_n = L_1\\) y \\(\\lim a_n = L_2\\), entonces \\(L_1 = L_2\\).\n\n\n\n\n\n\n\n\nTipTeorema de la Densidad\n\n\n\nEntre dos números reales cualesquiera existe un número racional.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introducción al Análisis Real</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "2  Números Reales",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Números Reales</span>"
+    ]
+  },
+  {
+    "objectID": "series.html",
+    "href": "series.html",
+    "title": "3  Capítulo: Series numéricas",
+    "section": "",
+    "text": "3.1 Introducción\nEn este capítulo, estudiaremos la suma de los términos de una sucesión infinita. A diferencia de las sumas finitas, la suma de infinitos términos requiere el concepto de límite para cobrar sentido.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Capítulo: Series numéricas</span>"
+    ]
+  },
+  {
+    "objectID": "series.html#series-notables-la-serie-geométrica",
+    "href": "series.html#series-notables-la-serie-geométrica",
+    "title": "3  Capítulo: Series numéricas",
+    "section": "3.2 Series notables: La serie geométrica",
+    "text": "3.2 Series notables: La serie geométrica\nUna de las series más importantes en el análisis es la serie geométrica, donde cada término se obtiene multiplicando el anterior por una razón constante r.\n\\sum_{n=0}^{\\infty} ar^n = a + ar + ar^2 + ar^3 + \\dots\n\nTeorema: La serie geométrica converge si y solo si |r| &lt; 1. En tal caso, su suma es: S = \\frac{a}{1-r}\n\n\n3.2.1 Visualización\n\n\n\n\n\n\n\n\nFigure 3.1",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Capítulo: Series numéricas</span>"
+    ]
+  },
+  {
+    "objectID": "series.html#el-criterio-de-la-razón-dalembert",
+    "href": "series.html#el-criterio-de-la-razón-dalembert",
+    "title": "3  Capítulo: Series numéricas",
+    "section": "3.3 El Criterio de la razón (D’Alembert)",
+    "text": "3.3 El Criterio de la razón (D’Alembert)\nEste criterio es uno de los más potentes en el Análisis Real, especialmente cuando trabajamos con sucesiones que involucran factoriales o potencias n-ésimas, ya que el cociente permite simplificaciones inmediatas.\n\n3.3.1 Definición teórica\nSea \\sum a_n una serie de términos positivos. Supongamos que existe el límite: L = \\lim_{n \\to \\infty} \\left| \\frac{a_{n+1}}{a_n} \\right|\nEl criterio establece que: 1. Si L &lt; 1, la serie converge absolutamente. 2. Si L &gt; 1 (o L = \\infty), la serie diverge. 3. Si L = 1, el criterio no es concluyente.\n\n\n3.3.2 Comparación visual: rapidez de convergencia\nPara entender el impacto de L, comparamos la serie geométrica (r=0.5, L=0.5) con la serie que define al número e, \\sum \\frac{1}{n!}, donde el límite de la razón es L=0. Notarás cómo la serie exponencial “aplasta” a la geométrica conforme n crece.\n\n\n3.3.3 Ejemplo visual del criterio de la razón\nPara ilustrar qué tan rápido decrecen los términos cuando el límite L &lt; 1, comparamos la serie geométrica (r=0.5) con la serie exponencial (1/n!).\n\n\n\n\n\n\n\n\nFigure 3.2",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Capítulo: Series numéricas</span>"
+    ]
+  }
+]
