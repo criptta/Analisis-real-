@@ -1,5 +1,178 @@
 /*-- scss:defaults --*/
-$body-bg: #001f3f;    /* Este es un azul marino profundo */
-$body-color: #f0f0f0; /* Texto casi blanco */
-$link-color: #00ccff; /* Enlaces en azul brillante */
-$sidebar-bg: #001a35; /* Menú lateral un poco más oscuro que el fondo */
+
+// 1. COLORES Y FUENTES (Identidad visual)
+$primary: #00ffff;    // Color principal (títulos)
+$accent: #e67e22;     // Color de acento (enlaces, detalles)
+$body-bg: #0f2537;    // Fondo de la página
+$body-color: #ffffff; // Color del texto
+$font-family-sans-serif: "Inter", "Helvetica Neue", Arial, sans-serif;
+$font-size-root: 15px;
+
+// 2. PERSONALIZACIÓN DE LA BARRA LATERAL (Sidebar)
+$sidebar-bg: #0f2537; // Fondo de la barra lateral izquierda
+$sidebar-color: $primary;
+
+/*-- scss:rules --*/
+
+// --- DISEÑO GENERAL ---
+body {
+  line-height: 1.7;
+  text-align: justify;
+}
+
+// --- TÍTULOS ---
+h1, h2, h3, h4 {
+  color: $primary;
+  font-weight: 700;
+  margin-top: 1.5em;
+}
+
+// --- ESTILO DE ENLACES ---
+a {
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: all 0.3s ease;
+  &:hover {
+    color: $accent;
+    border-bottom: 1px solid $accent;
+  }
+}
+
+// --- BLOQUES DE CÓDIGO ---
+.listing-block, pre.code-executable {
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+// --- PERSONALIZACIÓN DE TEOREMAS Y CALLOUTS ---
+// Esto es vital para Análisis Real
+.callout-thm, .callout-def {
+  border-left-width: 5px;
+  border-radius: 5px;
+  background-color: rgba($primary, 0.03);
+}
+
+.callout-header {
+  font-variant: small-caps;
+  letter-spacing: 1px;
+}
+
+// --- BARRA DE NAVEGACIÓN SUPERIOR Y LATERAL ---
+.quarto-sidebar {
+  padding-top: 2rem;
+  border-right: 1px solid #eee;
+}
+
+.sidebar-item-text {
+  font-weight: 500;
+}
+
+// --- DISEÑO DE LAS ECUACIONES (MATHJAX) ---
+.math.display {
+  padding: 1.5em 0;
+  overflow-x: auto;
+  color: #ffffff;// Color de las ecuaciones latex
+}
+
+// --- PIE DE PÁGINA ---
+footer {
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+  font-size: 0.9em;
+  color: #777;
+}
+
+
+/*-- scss:rules --*/
+
+// 1. Título del TOC (el que dice "En esta página" o "Table of contents")
+#quarto-toc-toggle, 
+.panel-sidebar h2, 
+h2.toc-title {
+  font-family: 'Inter', sans-serif; // Cambia por tu fuente
+  font-size: 0.8rem;                // Tamaño del título
+  font-weight: 700;                 // Grosor (Negrita)
+  text-transform: uppercase;        // Todo en mayúsculas
+  letter-spacing: 1px;              // Espaciado entre letras
+  color: #df691a;                   // Color naranja tipo Superhero
+  margin-bottom: 15px;
+}
+
+// 2. Contenedor general de los enlaces del TOC
+.sidebar-nav nav, 
+#TOC {
+  font-family: 'Inter', sans-serif; 
+  font-size: 0.85rem;               // Tamaño de los enlaces
+  line-height: 1.4;                 // Interlineado
+}
+
+// 3. Los enlaces individuales del TOC
+#TOC li a {
+  color: #ebebeb;                   // Color de fuente (claro para Superhero)
+  padding: 5px 0;                   // Espaciado vertical entre ítems
+  border-left: 2px solid transparent; // Preparar borde para estado activo
+  padding-left: 10px;
+  transition: all 0.2s ease-in-out;
+}
+
+// 4. Estado al pasar el ratón (Hover)
+#TOC li a:hover {
+  color: #ff7518 !important;        // Color naranja brillante
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.05); // Fondo sutil
+}
+
+// 5. Estado ACTIVO (La sección que el usuario está leyendo)
+#TOC li a.active {
+  color: #df691a !important;        // Color más brillante para resaltar
+  font-weight: 600;                 // Un poco más grueso
+  border-left: 2px solid #df691a;   // Línea lateral indicadora
+  background-color: transparent;
+}
+
+// 6. Ajuste para subsecciones (niveles más profundos)
+#TOC ul ul {
+  padding-left: 15px;               // Sangría para sub-ítems
+  font-size: 0.8rem;                // Un poco más pequeños que los principales
+}
+
+
+/*-- scss:rules --*/
+
+// 1. FIJAR EL ANCHO Y POSICIÓN (Evita que "baile")
+.sidebar-nav.toc-active {
+  max-width: 280px;      // Un ancho fijo para que no se estire
+  padding-left: 1rem;
+  border-left: 1px solid rgba(255, 255, 255, 0.1); // Una línea guía sutil
+}
+
+// 2. ELIMINAR EL EFECTO "FRÁGIL" AL HACER SCROLL
+// Esto asegura que la sección activa sea muy obvia
+#TOC ul li a.active {
+  color: #00f2ff !important;    // Un cian neón que resalta en Superhero
+  font-weight: 700 !important;
+  border-left: 3px solid #00f2ff;
+  background-color: rgba(0, 242, 255, 0.05); // Fondo muy tenue
+  padding-left: 12px;
+}
+
+// 3. EVITAR QUE LOS TÍTULOS LARGOS ROMPAN EL DISEÑO
+#TOC a {
+  display: block;
+  white-space: nowrap;      // No permite saltos de línea feos
+  overflow: hidden;
+  text-overflow: ellipsis;  // Si el título es muy largo, pone "..."
+  font-size: 0.82rem;
+  color: #aeb9c2;           // Color gris suave para los no activos
+  transition: all 0.2s ease;
+}
+
+// 4. MEJORAR EL CONTRASTE DEL TÍTULO "EN ESTA PÁGINA"
+.toc-title {
+  color: #ffffff !important;
+  font-size: 0.75rem !important;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 1rem;
+  opacity: 0.8;
+}

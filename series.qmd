@@ -1,14 +1,4 @@
----
-title: "Capítulo: Series numéricas"
-subtitle: "Análisis Real I"
-format:
-  html:
-    code-fold: true
-    html-math-method: katex
-    number-sections: true
-editor_options: 
-  chunk_output_type: inline
----
+# Series numéricas
 
 ## Introducción
 
@@ -70,6 +60,48 @@ ggplot(df, aes(x = n, y = S_n)) +
     panel.grid.minor = element_line(color = "#1e2d3b", linewidth = 0.25) # Malla densa
   )
 ```
+
+
+A continuación se presenta el código necesario para generar la suma parcial $S_n = \sum_{i=0}^{n} \left(\frac{1}{2}\right)^i$ utilizando Python:
+
+```python
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Configuración para usar LaTeX en todo el texto de la gráfica
+plt.rcParams.update({
+    "text.usetex": False, # Usamos el motor mathtext de matplotlib (más compatible en web)
+    "font.family": "serif",
+    "mathtext.fontset": "cm" # Fuente Computer Modern (estilo LaTeX clásico)
+})
+
+# Datos
+n_continuo = np.linspace(0, 15, 100)
+s_n_suave = 2 * (1 - (0.5)**(n_continuo + 1))
+
+n_puntos = np.arange(16)
+s_puntos = 2 * (1 - (0.5)**(n_puntos + 1))
+
+plt.figure(figsize=(9, 6))
+
+# Graficamos
+plt.plot(n_continuo, s_n_suave, label=r'Tendencia de $S_n$', color='teal', linewidth=2)
+plt.scatter(n_puntos, s_puntos, color='darkorange', s=30, zorder=5, label=r'Sumas parciales $S_n$')
+plt.axhline(y=2, color='red', linestyle='--', alpha=0.6, label=r'Límite $L = 2$')
+
+# Textos en formato LaTeX (usando la r antes de las comillas)
+plt.title(r'Convergencia de la Serie Geométrica $\sum_{i=0}^{\infty} \left(\frac{1}{2}\right)^i$', fontsize=16)
+plt.xlabel(r'Número de términos ($n$)', fontsize=12)
+plt.ylabel(r'Valor de la suma parcial ($S_n$)', fontsize=12)
+
+plt.grid(True, linestyle=':', alpha=0.6)
+plt.legend(fontsize=11)
+
+plt.show()
+```
+
+
+
 
 ## El Criterio de la razón (D'Alembert)
 
